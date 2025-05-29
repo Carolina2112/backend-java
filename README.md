@@ -11,7 +11,10 @@ Account-transaction service
 
 client-person service  
 http://localhost:8081/h2-console/  
-![image](https://github.com/user-attachments/assets/91bf9476-4033-48e1-9b30-1f4325642bd1)
+![image](https://github.com/user-attachments/assets/91bf9476-4033-48e1-9b30-1f4325642bd1)  
+
+Reportes POSTMAN   
+![image](https://github.com/user-attachments/assets/eb744463-e069-4a46-817c-7ac7672ed864)  
 
 
 Pruebas unitarias   
