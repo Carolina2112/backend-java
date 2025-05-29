@@ -1,0 +1,2110 @@
+{
+	"info": {
+		"_postman_id": "50c0faba-831e-4e08-9edf-bb2b03fcaea7",
+		"name": "MicroServices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45139663",
+		"_collection_link": "https://carolinapantoja.postman.co/workspace/Carolina-Pantoja's-Workspace~6097fc67-3758-43d9-8877-7c419b7a2d9b/collection/45139663-50c0faba-831e-4e08-9edf-bb2b03fcaea7?action=share&source=collection_link&creator=45139663"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/clientes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Juan Vasco\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 30,\r\n    \"identification\": \"0982547851\",\r\n    \"address\": \"Machala y Legarda\",\r\n    \"phone\": \"0982547851\",\r\n    \"id\": \"001\",\r\n    \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8081/clientes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Juan Vasco\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 30,\r\n    \"identification\": \"0982547851\",\r\n    \"address\": \"Machala y Legarda\",\r\n    \"phone\": \"0982547851\",\r\n    \"id\": \"001\",\r\n    \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 16:06:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Juan Vasco\",\n        \"gender\": \"Male\",\n        \"age\": 30,\n        \"identification\": \"0982547851\",\n        \"address\": \"Machala y Legarda\",\n        \"phone\": \"0982547851\",\n        \"password\": \"1234\",\n        \"status\": true\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8081/clientes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Juan Vasco\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 30,\r\n    \"identification\": \"0982547851\",\r\n    \"address\": \"Machala y Legarda\",\r\n    \"phone\": \"0982547851\",\r\n    \"id\": \"001\",\r\n    \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 16:45:39 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Juan Vasco\",\n        \"gender\": \"Male\",\n        \"age\": 30,\n        \"identification\": \"0982547851\",\n        \"address\": \"Machala y Legarda\",\n        \"phone\": \"0982547851\",\n        \"password\": \"1234\",\n        \"status\": true\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Carolina Gutierrez\",\n        \"gender\": \"Female\",\n        \"age\": 24,\n        \"identification\": \"1718235689\",\n        \"address\": \"Mena del Hierro\",\n        \"phone\": \"0987858698\",\n        \"password\": \"0000\",\n        \"status\": true\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Samanta Rios\",\n        \"gender\": \"Female\",\n        \"age\": 30,\n        \"identification\": \"1726085569\",\n        \"address\": \"Quitumbe\",\n        \"phone\": \"0985564717\",\n        \"password\": \"1726\",\n        \"status\": true\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8081/clientes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Juan Vasco\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 30,\r\n    \"identification\": \"0982547851\",\r\n    \"address\": \"Machala y Legarda\",\r\n    \"phone\": \"0982547851\",\r\n    \"id\": \"001\",\r\n    \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 18:56:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Juan Vasco\",\n        \"gender\": \"Male\",\n        \"age\": 30,\n        \"identification\": \"0982547851\",\n        \"address\": \"Machala y Legarda\",\n        \"phone\": \"0982547851\",\n        \"password\": \"1234\",\n        \"status\": true\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Carolina Gutierrez\",\n        \"gender\": \"Female\",\n        \"age\": 24,\n        \"identification\": \"1718235689\",\n        \"address\": \"Mena del Hierro\",\n        \"phone\": \"0987858698\",\n        \"password\": \"0000\",\n        \"status\": true\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Samanta Rios\",\n        \"gender\": \"Female\",\n        \"age\": 30,\n        \"identification\": \"1726085569\",\n        \"address\": \"Quitumbe\",\n        \"phone\": \"0985564717\",\n        \"password\": \"1726\",\n        \"status\": true\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Cesar Jimenez\",\n        \"gender\": \"Male\",\n        \"age\": 23,\n        \"identification\": \"0995665747\",\n        \"address\": \"Solanda\",\n        \"phone\": \"0982547896\",\n        \"password\": \"9635\",\n        \"status\": true\n    },\n    {\n        \"id\": 5,\n        \"name\": \"María Fernández\",\n        \"gender\": \"Female\",\n        \"age\": 30,\n        \"identification\": \"1718247593\",\n        \"address\": \"Carcelén\",\n        \"phone\": \"0987654321\",\n        \"password\": \"1234\",\n        \"status\": true\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Jorge Salazar\",\n        \"gender\": \"Male\",\n        \"age\": 45,\n        \"identification\": \"1104785963\",\n        \"address\": \"La Floresta\",\n        \"phone\": \"0991122334\",\n        \"password\": \"4567\",\n        \"status\": true\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Lucía Paredes\",\n        \"gender\": \"Female\",\n        \"age\": 28,\n        \"identification\": \"0915847225\",\n        \"address\": \"Guamani\",\n        \"phone\": \"0963456789\",\n        \"password\": \"7890\",\n        \"status\": true\n    }\n]"
+				},
+				{
+					"name": "http://localhost:8081/clientes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Juan Vasco\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 30,\r\n    \"identification\": \"0982547851\",\r\n    \"address\": \"Machala y Legarda\",\r\n    \"phone\": \"0982547851\",\r\n    \"id\": \"001\",\r\n    \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:24:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Cesar Jimenez\",\n        \"gender\": \"Male\",\n        \"age\": 23,\n        \"identification\": \"0995665747\",\n        \"address\": \"Solanda\",\n        \"phone\": \"0982547896\",\n        \"password\": \"9635\",\n        \"status\": true\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Lucía Paredes\",\n        \"gender\": \"Female\",\n        \"age\": 28,\n        \"identification\": \"0915847225\",\n        \"address\": \"Guamani\",\n        \"phone\": \"0963456789\",\n        \"password\": \"7890\",\n        \"status\": true\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Maria Castro\",\n        \"gender\": \"Female\",\n        \"age\": 45,\n        \"identification\": \"0985741231\",\n        \"address\": \"Centor Historico\",\n        \"phone\": \"0982547963\",\n        \"password\": \"7894\",\n        \"status\": true\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8081/clientes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cesar Jimenez\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 23,\r\n    \"identification\": \"0995665747\",\r\n    \"address\": \"Solanda\",\r\n    \"phone\": \"0982547896\",\r\n    \"password\": \"9635\",\r\n    \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8081/clientes",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n     {\r\n    \"name\": \"María Fernández\",\r\n    \"gender\": \"Female\",\r\n    \"age\": 30,\r\n    \"identification\": \"1718247593\",\r\n    \"address\": \"Carcelén\",\r\n    \"phone\": \"0987654321\",\r\n    \"password\": \"1234\",\r\n    \"status\": true\r\n  },\r\n  {\r\n    \"name\": \"Jorge Salazar\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 45,\r\n    \"identification\": \"1104785963\",\r\n    \"address\": \"La Floresta\",\r\n    \"phone\": \"0991122334\",\r\n    \"password\": \"4567\",\r\n    \"status\": true\r\n  },\r\n  {\r\n    \"name\": \"Lucía Paredes\",\r\n    \"gender\": \"Female\",\r\n    \"age\": 28,\r\n    \"identification\": \"0915847225\",\r\n    \"address\": \"Guamani\",\r\n    \"phone\": \"0963456789\",\r\n    \"password\": \"7890\",\r\n    \"status\": true\r\n  },\r\n  {\r\n    \"name\": \"Carlos Mena\",\r\n    \"gender\": \"Male\",\r\n    \"age\": 35,\r\n    \"identification\": \"0801234567\",\r\n    \"address\": \"Chillogallo\",\r\n    \"phone\": \"0976543210\",\r\n    \"password\": \"1478\",\r\n    \"status\": true\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 18:53:59 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 4,\n    \"name\": \"Cesar Jimenez\",\n    \"gender\": \"Male\",\n    \"age\": 23,\n    \"identification\": \"0995665747\",\n    \"address\": \"Solanda\",\n    \"phone\": \"0982547896\",\n    \"password\": \"9635\",\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8081/clientes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Lucía Paredes\",\r\n    \"gender\": \"Female\",\r\n    \"age\": 28,\r\n    \"identification\": \"0915847225\",\r\n    \"address\": \"Guamani\",\r\n    \"phone\": \"0963456789\",\r\n    \"password\": \"7890\",\r\n    \"status\": true\r\n  }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8081/clientes",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Lucía Paredes\",\r\n    \"gender\": \"Female\",\r\n    \"age\": 28,\r\n    \"identification\": \"0915847225\",\r\n    \"address\": \"Guamani\",\r\n    \"phone\": \"0963456789\",\r\n    \"password\": \"7890\",\r\n    \"status\": true\r\n  }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 18:56:52 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 7,\n    \"name\": \"Lucía Paredes\",\n    \"gender\": \"Female\",\n    \"age\": 28,\n    \"identification\": \"0915847225\",\n    \"address\": \"Guamani\",\n    \"phone\": \"0963456789\",\n    \"password\": \"7890\",\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"Saving\",\r\n    \"initialBalance\": 14,\r\n    \"clientId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"Saving\",\r\n    \"initialBalance\": 7000,\r\n    \"clientId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:12:07 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"accountNumber\": \"860250\",\n    \"type\": \"Saving\",\n    \"initialBalance\": 7000,\n    \"status\": true,\n    \"clientId\": 1,\n    \"availableBalance\": 7000\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"Saving\",\r\n    \"initialBalance\": 2000,\r\n    \"clientId\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:21:14 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"accountNumber\": \"576587\",\n    \"type\": \"Saving\",\n    \"initialBalance\": 2000,\n    \"status\": true,\n    \"clientId\": 3,\n    \"availableBalance\": 2000\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"Saving\",\r\n    \"initialBalance\": 14,\r\n    \"clientId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:28:42 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"accountNumber\": \"519281\",\n    \"type\": \"Saving\",\n    \"initialBalance\": 14,\n    \"status\": true,\n    \"clientId\": 1,\n    \"availableBalance\": 14\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:11:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"accountNumber\": \"159301\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 200,\n        \"status\": true,\n        \"clientId\": 1,\n        \"availableBalance\": 200\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountNumber\": \"159301\",\r\n    \"type\": \"Retiro\",\r\n    \"value\": 600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"159301\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:14:30 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 5,\n    \"date\": \"2025-05-29T14:14:30.4067882\",\n    \"type\": \"Retiro\",\n    \"value\": -600,\n    \"balance\": 800,\n    \"accountNumber\": \"159301\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountNumber\": \"159301\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 2000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"159301\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:14:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 6,\n    \"date\": \"2025-05-29T14:14:49.5979697\",\n    \"type\": \"Deposito\",\n    \"value\": 2000,\n    \"balance\": 2800,\n    \"accountNumber\": \"159301\"\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"159301\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:18:30 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 7,\n    \"date\": \"2025-05-29T14:18:30.5436512\",\n    \"type\": \"Deposito\",\n    \"value\": 2000,\n    \"balance\": 4800,\n    \"accountNumber\": \"159301\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/cliente/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/cliente/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"cliente",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/cliente/3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/cliente/648308",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"cliente",
+								"648308"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:25:24 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"accountNumber\": \"648308\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 2000,\n        \"status\": true,\n        \"clientId\": 3,\n        \"availableBalance\": 2000\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:29:24 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"accountNumber\": \"731599\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 2000,\n        \"status\": true,\n        \"clientId\": 3,\n        \"availableBalance\": 2000\n    },\n    {\n        \"accountNumber\": \"080975\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 789,\n        \"status\": true,\n        \"clientId\": 3,\n        \"availableBalance\": 789\n    },\n    {\n        \"accountNumber\": \"519281\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 14,\n        \"status\": true,\n        \"clientId\": 1,\n        \"availableBalance\": 14\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/731599",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/731599",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"731599"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/731599",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/731599",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"731599"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:29:55 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"accountNumber\": \"731599\",\n    \"type\": \"Saving\",\n    \"initialBalance\": 2000,\n    \"status\": true,\n    \"clientId\": 3,\n    \"availableBalance\": 2000\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountNumber\": \"731599\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"731599\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 600\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:32:25 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"date\": \"2025-05-29T14:32:25.4916891\",\n    \"type\": \"Deposito\",\n    \"value\": 600,\n    \"balance\": 3200,\n    \"accountNumber\": \"731599\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"Saving\",\r\n    \"initialBalance\": 789,\r\n    \"clientId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"132661\",\r\n    \"type\": \"Retiro\",\r\n    \"value\": 150\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:33:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"date\": \"2025-05-29T14:33:20.8475855\",\n    \"type\": \"Retiro\",\n    \"value\": -150,\n    \"balance\": 3050,\n    \"accountNumber\": \"731599\"\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"Saving\",\r\n    \"initialBalance\": 789,\r\n    \"clientId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:38:36 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"accountNumber\": \"850157\",\n    \"type\": \"Saving\",\n    \"initialBalance\": 789,\n    \"status\": true,\n    \"clientId\": 1,\n    \"availableBalance\": 789\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:39:14 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"accountNumber\": \"132661\",\n        \"type\": \"Checking\",\n        \"initialBalance\": 100,\n        \"status\": true,\n        \"clientId\": 3,\n        \"availableBalance\": 100\n    },\n    {\n        \"accountNumber\": \"557564\",\n        \"type\": \"Checking\",\n        \"initialBalance\": 100,\n        \"status\": true,\n        \"clientId\": 2,\n        \"availableBalance\": 100\n    },\n    {\n        \"accountNumber\": \"903263\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 789,\n        \"status\": true,\n        \"clientId\": 1,\n        \"availableBalance\": 789\n    },\n    {\n        \"accountNumber\": \"850157\",\n        \"type\": \"Saving\",\n        \"initialBalance\": 789,\n        \"status\": true,\n        \"clientId\": 1,\n        \"availableBalance\": 789\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountNumber\": \"132661\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"132661\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 600\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:39:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"date\": \"2025-05-29T14:39:58.5041982\",\n    \"type\": \"Deposito\",\n    \"value\": 150,\n    \"balance\": 550,\n    \"accountNumber\": \"132661\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountNumber\": \"132661\",\r\n    \"type\": \"Retiro\",\r\n    \"value\": 2000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"132661\",\r\n    \"type\": \"Retiro\",\r\n    \"value\": 2000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:40:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"timestamp\": \"2025-05-29T14:40:28.003941\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"message\": \"Saldo no disponible\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:41:22 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"date\": \"2025-05-29T14:39:55.951458\",\n        \"type\": \"Deposito\",\n        \"value\": 150,\n        \"balance\": 250,\n        \"accountNumber\": \"132661\"\n    },\n    {\n        \"id\": 2,\n        \"date\": \"2025-05-29T14:39:57.421013\",\n        \"type\": \"Deposito\",\n        \"value\": 150,\n        \"balance\": 400,\n        \"accountNumber\": \"132661\"\n    },\n    {\n        \"id\": 3,\n        \"date\": \"2025-05-29T14:39:58.504198\",\n        \"type\": \"Deposito\",\n        \"value\": 150,\n        \"balance\": 550,\n        \"accountNumber\": \"132661\"\n    },\n    {\n        \"id\": 4,\n        \"date\": \"2025-05-29T14:40:15.561541\",\n        \"type\": \"Deposito\",\n        \"value\": 600,\n        \"balance\": 1150,\n        \"accountNumber\": \"132661\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/movimientos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountNumber\": \"211282\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"movimientos"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/movimientos",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountNumber\": \"211282\",\r\n    \"type\": \"Deposito\",\r\n    \"value\": 600\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas/movimientos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"movimientos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 19:49:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"date\": \"2025-05-29T14:49:56.9949279\",\n    \"type\": \"Deposito\",\n    \"value\": 600,\n    \"balance\": 8800,\n    \"accountNumber\": \"211282\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas/reportes/simple/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/cuentas/reportes/simple/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas",
+						"reportes",
+						"simple",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas/reportes/simple/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas/reportes/simple/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"reportes",
+								"simple",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 20:06:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2025-05-01T00:00:00.4903432\",\n    \"endDate\": \"2025-05-31T23:59:59.4903432\",\n    \"clientName\": \"Cliente 1\",\n    \"accounts\": [\n        {\n            \"accountNumber\": \"054730\",\n            \"type\": \"Saving\",\n            \"initialBalance\": 789,\n            \"status\": true,\n            \"transactions\": [\n                {\n                    \"date\": \"2025-05-29T15:06:29.647134\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 1389\n                }\n            ],\n            \"availableBalance\": 1389\n        }\n    ]\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas/reportes/simple/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas/reportes/simple/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"reportes",
+								"simple",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 20:10:04 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2025-05-01T00:00:00.5886561\",\n    \"endDate\": \"2025-05-31T23:59:59.5886561\",\n    \"clientName\": \"Cliente 3\",\n    \"accounts\": [\n        {\n            \"accountNumber\": \"607697\",\n            \"type\": \"Checking\",\n            \"initialBalance\": 7777,\n            \"status\": true,\n            \"transactions\": [\n                {\n                    \"date\": \"2025-05-29T15:09:52.995862\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 8377\n                }\n            ],\n            \"availableBalance\": 8377\n        }\n    ]\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas/reportes/simple/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas/reportes/simple/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"reportes",
+								"simple",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 20:11:15 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2025-05-01T00:00:00.754731\",\n    \"endDate\": \"2025-05-31T23:59:59.754731\",\n    \"clientName\": \"Cliente 3\",\n    \"accounts\": [\n        {\n            \"accountNumber\": \"607697\",\n            \"type\": \"Checking\",\n            \"initialBalance\": 7777,\n            \"status\": true,\n            \"transactions\": [\n                {\n                    \"date\": \"2025-05-29T15:11:09.071973\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 9577\n                },\n                {\n                    \"date\": \"2025-05-29T15:11:07.948598\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 8977\n                },\n                {\n                    \"date\": \"2025-05-29T15:09:52.995862\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 8377\n                }\n            ],\n            \"availableBalance\": 9577\n        }\n    ]\n}"
+				},
+				{
+					"name": "http://localhost:8082/cuentas/reportes/simple/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/cuentas/reportes/simple/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas",
+								"reportes",
+								"simple",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 20:11:15 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2025-05-01T00:00:00.754731\",\n    \"endDate\": \"2025-05-31T23:59:59.754731\",\n    \"clientName\": \"Cliente 3\",\n    \"accounts\": [\n        {\n            \"accountNumber\": \"607697\",\n            \"type\": \"Checking\",\n            \"initialBalance\": 7777,\n            \"status\": true,\n            \"transactions\": [\n                {\n                    \"date\": \"2025-05-29T15:11:09.071973\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 9577\n                },\n                {\n                    \"date\": \"2025-05-29T15:11:07.948598\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 8977\n                },\n                {\n                    \"date\": \"2025-05-29T15:09:52.995862\",\n                    \"type\": \"Deposito\",\n                    \"value\": 600,\n                    \"balance\": 8377\n                }\n            ],\n            \"availableBalance\": 9577\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8082/cuentas",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"Checking\",\r\n    \"initialBalance\": 7777,\r\n    \"clientId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuentas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8082/cuentas",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"Checking\",\r\n    \"initialBalance\": 7777,\r\n    \"clientId\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/cuentas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 May 2025 20:09:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"accountNumber\": \"607697\",\n    \"type\": \"Checking\",\n    \"initialBalance\": 7777,\n    \"status\": true,\n    \"clientId\": 3,\n    \"availableBalance\": 7777\n}"
+				}
+			]
+		}
+	]
+}
